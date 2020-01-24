@@ -1,4 +1,6 @@
-virtualenv is a tool to create a separate(isolated) environment for your python/Django projects. It creates a new environment for you, without affecting the dependencies or version installed globally on the host system. 
+# What is virtualenv and why we should use it?
+
+**virtualenv** is a tool to create a separate(isolated) environment for your python/Django projects. It creates a new environment for your project, without affecting the dependencies or version installed globally on the host system. 
 
 For example, if you are running Ubuntu 16.04, the OS may use python 3.5 internally and should be left untouched. But you need a recent python version for your Django project. This can be easily achieved by using virtualenv. 
 
